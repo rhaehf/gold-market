@@ -39,3 +39,9 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+bootJar{
+	archivesBaseName = 'goldmarket'
+	archiveFileName = 'goldmarket_resource-server.jar'
+	archiveVersion = "0.0.1"
+}
